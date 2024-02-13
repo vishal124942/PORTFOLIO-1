@@ -118,3 +118,8 @@ body {
     padding: 0 2rem;
   }
 }
+@media (min-width: 375px) and (max-width: 400px) {
+  .menu-btn {
+    transform: trasnslateX(-2rem);
+  }
+}
