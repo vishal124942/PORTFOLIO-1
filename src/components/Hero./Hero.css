@@ -174,8 +174,3 @@
     width: 2rem;
   }
 }
-@media (max-width: 400px) {
-  .hero-container {
-    transform: translateX(2rem);
-  }
-}
