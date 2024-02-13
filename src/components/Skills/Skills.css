@@ -73,8 +73,4 @@
     padding: 0;
   }
 }
-@media (min-width: 375px) and (max-width: 400px) {
-  .skills-container {
-    transform: translateX(3%);
-  }
-}
+
