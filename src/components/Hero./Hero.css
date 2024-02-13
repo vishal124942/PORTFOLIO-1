@@ -25,17 +25,28 @@
 .hero-content {
   flex: 1;
 }
+.hero-container h1 {
+  font-size: 2rem;
+  font-weight: 200;
+}
 .hero-content h2 {
-  font-size: 3.8rem;
+  font-size: 3.4rem;
   font-weight: 600;
   line-height: 5rem;
-  margin-bottom: 1rem;
 }
 .hero-content p {
+  display: flex;
+
+  gap: 1rem;
   width: 80%;
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 1.4rem;
+  font-weight: 500;
   line-height: 2rem;
+}
+.hero-content p span {
+  color: #7e61e7;
+  font-size: 2.1rem;
+  transform: translateY(-0.25rem);
 }
 .hero-img {
   flex: 1;
@@ -88,9 +99,16 @@
   transform: translateY(-0.5rem);
 }
 @media (max-width: 1025px) {
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
   .hero-content h2 {
-    font-size: 3rem;
+    font-size: 2.2rem;
     line-height: 4rem;
+  }
+  .hero-content p span {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
   }
   .hero-content p {
     font-size: 0.9rem;
@@ -111,6 +129,18 @@
   .hero-container {
     flex-direction: column;
   }
+  .hero-content h1 {
+    text-align: center;
+    transform: translate(-1.1rem, 3rem);
+  }
+  .hero-content p span {
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+  }
+  .hero-content h2 {
+    text-align: center;
+    transform: translate(1rem, 0);
+  }
   .hero-img {
     margin: 2rem 0 2rem 0;
   }
@@ -119,6 +149,8 @@
   }
   .hero-content h2,
   .hero-content p {
+    display: flex;
+    flex-direction: column;
     width: auto;
     text-align: center;
     margin-right: 3rem;
@@ -146,6 +178,9 @@
     font-size: 2.2rem;
     line-height: 3rem;
   }
+  .hero-content h1 {
+    transform: translate(0.4rem, 3rem);
+  }
   .hero-content h2,
   .hero-content p {
     transform: translateX(2rem);
@@ -165,12 +200,7 @@
   .hero-img > div > img {
     width: 16rem;
   }
-  .all-icons {
-    margin-left: 3rem;
-  }
-  .icon-img {
-    padding-left: 3rem;
-  }
+
   .tech-icon {
     width: 3.3rem;
     height: 3.3rem;
@@ -188,5 +218,27 @@
   }
   .hero-content {
     transform: translateX(10%);
+  }
+  .hero-content h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  .hero-content h1 {
+    font-size: 1.2rem;
+    transform: translate(-1rem, auto);
+  }
+  .hero-content p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    line-height: 1.3rem;
+  }
+  .hero-content p span {
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
   }
 }
