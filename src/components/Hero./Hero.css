@@ -183,10 +183,10 @@
   .hero-container {
     width: 100%;
   }
+  .img-icon {
+    transform: translateX(5%);
+  }
   .hero-content {
     transform: translateX(10%);
-  }
-  .icon-img {
-    display: flex;
   }
 }
