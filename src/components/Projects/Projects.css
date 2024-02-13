@@ -53,3 +53,8 @@
     right: -1rem;
   }
 }
+@media (min-width: 375px) and (max-width: 400px) {
+  .project-container {
+    transform: translateX(10%);
+  }
+}

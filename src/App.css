@@ -8,3 +8,8 @@
     padding: 0 1.5rem;
   }
 }
+@media (min-width: 375px) and (max-width: 400px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
