@@ -14,21 +14,22 @@ const Hero = () => {
         </p>
       </div>
       <div className="hero-img">
-        <div className="icon-img">
-          <div className="tech-icon">
-            <FaReact className="react-icon" />
-          </div>
+        <div className="img-icon">
           <img src={Avatar} alt="" />
-        </div>
-        <div className="all-icons">
-          <div className="tech-icon">
-            <FaHtml5 className="html-icon" />
-          </div>
-          <div className="tech-icon">
-            <FaCss3 className="css-icon" />
-          </div>
-          <div className="tech-icon">
-            <FaJs className="css-icon" />
+
+          <div className="all-icons">
+            <div className="tech-icon">
+              <FaReact className="react-icon" />
+            </div>
+            <div className="tech-icon">
+              <FaHtml5 className="html-icon" />
+            </div>
+            <div className="tech-icon">
+              <FaCss3 className="css-icon" />
+            </div>
+            <div className="tech-icon">
+              <FaJs className="css-icon" />
+            </div>
           </div>
         </div>
       </div>
