@@ -23,17 +23,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                 Home
               </Link>
             </li>
-            <li className="menu-item">
-              <Link
-                to="About"
-                smooth={true}
-                duration={500}
-                spy={true}
-                offset={-10}
-              >
-                About
-              </Link>
-            </li>
+
             <li className="menu-item">
               <Link
                 to="Skills"
