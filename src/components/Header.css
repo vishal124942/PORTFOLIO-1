@@ -41,6 +41,31 @@ body {
   position: relative;
   cursor: pointer;
 }
+.Resume-item a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+.Resume-item a::before {
+  content: " ";
+  width: 2rem;
+  height: 0.2rem;
+  background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+  border-radius: 0.5rem;
+  position: absolute;
+  bottom: -0.6rem;
+  opacity: 0;
+  transform: translateX(-1.5rem);
+  transition: all 0.3s ease;
+}
+.Resume-item a:hover::before {
+  width: 100%;
+  transform: translateX(0);
+  opacity: 1;
+}
 .menu-item::before {
   content: " ";
   width: 2rem;

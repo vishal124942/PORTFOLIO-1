@@ -67,7 +67,11 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                 Contact Me
               </Link>
             </li>
-            <button className="contact-btn">Hire </button>
+            <li className="Resume-item">
+              <a href="https://drive.google.com/file/d/1mAtOzAZY6MqWzRa8gOKM9bAPmm3YB9Ir/view?usp=sharing">
+                Resume
+              </a>
+            </li>
           </ul>
         </div>
       </div>

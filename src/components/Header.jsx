@@ -3,7 +3,9 @@ import LOGO from "../Assets/logo.png";
 import MobileNav from "./MobileNav";
 import { Link } from "react-scroll";
 import "./Header.css";
+import { useNavigate } from "react-router-dom";
 const Header = () => {
+  const navigate = useNavigate();
   const [openMenu, setOpenMenu] = useState(false);
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
@@ -26,17 +28,7 @@ const Header = () => {
                 Home
               </Link>
             </li>
-            <li className="menu-item">
-              <Link
-                to="About"
-                smooth={true}
-                duration={500}
-                spy={true}
-                offset={-10}
-              >
-                About
-              </Link>
-            </li>
+
             <li className="menu-item">
               <Link
                 to="Skills"
@@ -70,7 +62,11 @@ const Header = () => {
                 Contact Me
               </Link>
             </li>
-            <button className="contact-btn">Hire </button>
+            <li className="Resume-item">
+              <a href="https://drive.google.com/file/d/1mAtOzAZY6MqWzRa8gOKM9bAPmm3YB9Ir/view?usp=sharing">
+                Resume
+              </a>
+            </li>
           </ul>
           <button className="menu-btn" onClick={toggleMenu}>
             <span className={"material-icons"} style={{ fontSize: "1.8rem" }}>
