@@ -68,7 +68,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
               </Link>
             </li>
             <li className="Resume-item">
-              <a href="https://drive.google.com/file/d/1mAtOzAZY6MqWzRa8gOKM9bAPmm3YB9Ir/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1q_hfc4wuvsDIXOQIuT8_4oVzIM49xBYH/view?usp=sharing">
                 Resume
               </a>
             </li>
