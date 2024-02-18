@@ -12,7 +12,7 @@ function App() {
       <Header />
       <div className="container">
         <Hero />
-        <About />
+
         <Skills />
         <Projects />
         <ContactMe />
