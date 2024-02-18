@@ -3,9 +3,7 @@ import LOGO from "../Assets/logo.png";
 import MobileNav from "./MobileNav";
 import { Link } from "react-scroll";
 import "./Header.css";
-import { useNavigate } from "react-router-dom";
 const Header = () => {
-  const navigate = useNavigate();
   const [openMenu, setOpenMenu] = useState(false);
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
