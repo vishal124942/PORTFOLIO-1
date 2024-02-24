@@ -40,6 +40,13 @@
   left: -1.3rem;
   top: 0.35rem;
 }
+.arrow {
+  transform: translateX(20px);
+  color: azure;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 @media (max-width: 768px) {
   .project-card {
     margin: 0;

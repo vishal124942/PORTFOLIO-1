@@ -100,6 +100,7 @@ export const PROJECTS = [
       "Utilized REST APIs for secure authentication.",
       "Bundled project assets with Parcel for optimized deployment.",
     ],
+    Link: "https://swiggy-inky.vercel.app/",
   },
   {
     title: "Youtube Clone",
@@ -111,6 +112,7 @@ export const PROJECTS = [
       " Achieved optimization rates exceeding 90%.",
       " Enhanced UX with responsive design and dark mode support.",
     ],
+    Link: "https://youtube-seven-pi.vercel.app/",
   },
   {
     title: "Netflix Clone",
@@ -122,5 +124,6 @@ export const PROJECTS = [
       "Enhanced UX with responsive design",
       "Incorporated YouTube search keyword APIs for displaying relevant videos.",
     ],
+    Link: "https://netflix-gpt-nu-henna.vercel.app/",
   },
 ];

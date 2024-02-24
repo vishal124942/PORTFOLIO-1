@@ -3,6 +3,7 @@ import "./ProjectCard.css";
 import YOUTUBE from "../../../Assets/Youtube.png";
 import NETFLIX from "../../../Assets/Netflix.png";
 import SWIGGY from "../../../Assets/Swiggy.png";
+import { FaArrowRight } from "react-icons/fa";
 const ProjectCard = ({ details }) => {
   const getImgUrl = (title) => {
     switch (title) {
@@ -27,6 +28,9 @@ const ProjectCard = ({ details }) => {
           ))}
         </ul>
       </div>
+      <a href={details?.Link} className="arrow">
+        Check Out <FaArrowRight />
+      </a>
     </div>
   );
 };

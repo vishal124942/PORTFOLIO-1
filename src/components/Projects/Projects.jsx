@@ -29,7 +29,7 @@ const Projects = () => {
     sliderRef.current.slickPrev();
   };
   return (
-    <section id="Projects"className="project-container">
+    <section id="Projects" className="project-container">
       <h5>Projects</h5>
 
       <div className="project-content">
